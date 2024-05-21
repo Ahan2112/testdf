@@ -2,11 +2,13 @@
 	"name": "AzureDataLakeStorage1",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"annotations": [],
+		"annotations": [
+			"testtag"
+		],
 		"type": "AzureBlobFS",
 		"typeProperties": {
 			"url": "https://ahanstorage.dfs.core.windows.net/",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDIzODg4Q0NGLTIwREQtNDU4My1CQzE4LUZGNDg0QTU4N0JGQ18zNTIzZmNiMC05Njk4LTQ0YzEtOGNmMC01Yzk1YmRiNDMyZTEiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDIzODg4Q0NGLTIwREQtNDU4My1CQzE4LUZGNDg0QTU4N0JGQ184NmVkN2QyYi1jNjJjLTQ0YWItYjk2MC1kMWJjMTM3ZWVkOTMiDQp9"
 		}
 	}
 }
