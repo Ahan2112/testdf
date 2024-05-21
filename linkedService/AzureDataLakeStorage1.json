@@ -4,7 +4,8 @@
 	"properties": {
 		"annotations": [
 			"testtag",
-			"testtag2"
+			"testtag2",
+			"test3"
 		],
 		"type": "AzureBlobFS",
 		"typeProperties": {
